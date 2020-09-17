@@ -2,6 +2,8 @@
 # Various actions have a set o button pressing and logic to it, so I code functions that translate the actions I want to do into the 
 # sequence of buttons to press and how much to wait depending on what I do
 
+# Its settings are for the game Disgaea 2, but it can be modified to work on any game
+
 class game_navigation(object):
     
     def __init__ (self,up,down,left,right,enter,press_sleep,comm_sleep):
